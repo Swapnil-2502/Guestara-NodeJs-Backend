@@ -11,8 +11,8 @@ Make sure you have the following installed:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/menu-management-api.git
-cd menu-management-api
+git clone git@github.com:Swapnil-2502/Guestara-NodeJs-Backend.git
+cd Guestara-NodeJs-Backend
 ```
 
 ### 2️⃣ Install Dependencies
@@ -24,7 +24,6 @@ npm install
 Inside the project root, create a `.env` file and add your MongoDB connection string:
 ```env
 MongoDB_URL=your_mongodb_connection_string
-PORT=3000
 ```
 
 ### 4️⃣ Start the Server
