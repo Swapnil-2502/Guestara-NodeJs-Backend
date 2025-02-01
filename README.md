@@ -45,38 +45,38 @@ API Functionality
 
 1️⃣ Create Operations
 
-Create Category: POST http://localhost:3000/api/post/category
+    Create Category: POST http://localhost:3000/api/post/category
 
-Create Subcategory: POST http://localhost:3000/api/post/subcategory
+    Create Subcategory: POST http://localhost:3000/api/post/subcategory
 
-Create Item: POST http://localhost:3000/api/post/item
+    Create Item: POST http://localhost:3000/api/post/item
 
 2️⃣ Read Operations
 
-Get All Categories: GET http://localhost:3000/api/get/category
+    Get All Categories: GET http://localhost:3000/api/get/category
 
-Get Categories by Name/ID: GET /category/:id or GET /categories/{name}
+    Get Categories by Name/ID: GET /category/:id or GET /categories/{name}
 
-Get All Subcategories: GET http://localhost:3000/api/get/subcategory
+    Get All Subcategories: GET http://localhost:3000/api/get/subcategory
 
-Get Subcategories by Name/ID: GET /subcategory/:id or GET /subcategories/{name}
+    Get Subcategories by Name/ID: GET /subcategory/:id or GET /subcategories/{name}
 
-Get All Items: GET http://localhost:3000/api/get/items
+    Get All Items: GET http://localhost:3000/api/get/items
 
-Get Items by Category/Subcategory: GET /items/bycategory / GET /items/bysubcategory
+    Get Items by Category/Subcategory: GET /items/bycategory / GET /items/bysubcategory
 
-Get Item by Name/ID: GET /items/:id or GET /items/{name}
+    Get Item by Name/ID: GET /items/:id or GET /items/{name}
 
 3️⃣ Update Operations
 
-Edit Category: PUT /category/:id
+    Edit Category: PUT /category/:id
 
-Edit Subcategory: PUT /subcategory/:id
+    Edit Subcategory: PUT /subcategory/:id
 
-Edit Item: PUT /items/:id
+    Edit Item: PUT /items/:id
 
 4️⃣ Search Operation
 
-Search Item by Name: GET /items/search?name=xyz
+    Search Item by Name: GET /items/search?name=xyz
 
 Happy Coding! 🚀
