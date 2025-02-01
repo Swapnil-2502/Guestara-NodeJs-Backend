@@ -12,12 +12,12 @@ connectMongoDB(process.env.MongoDB_URL)
 app.use(express.json());
 
 // Routes
-const menuRoutes = require("./Routes/menuRoutes");
+const postRoutes = require("./Routes/postRoutes");
 const getRoutes = require("./Routes/getRoutes");
 const putRoutes = require("./Routes/putRoutes");
 const searchRoutes = require("./Routes/searchRoutes");
 
-app.use("/api/menu", menuRoutes);
+app.use("/api/post", postRoutes);
 app.use("/api/get", getRoutes);
 app.use("/api/put", putRoutes);
 app.use("/api/search", searchRoutes);
